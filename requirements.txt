@@ -1,18 +1,22 @@
 # Core dependencies
 streamlit>=1.28.0
 pandas>=2.0.0
-spacy>=3.7.0
 
-# ML and data processing
-scikit-learn>=1.3.0
+# ML and NLP
+spacy==3.7.2
 numpy>=1.24.0
+thinc>=8.1.10
 
 # Database
 sqlalchemy>=2.0.0
 
-# Additional spaCy models
+# Additional dependencies
+scikit-learn>=1.3.0
+python-dateutil>=2.8.2
+
+# Install spaCy models after spaCy installation
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0.tar.gz
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.0/en_core_web_lg-3.7.0.tar.gz
 
-# Optional: GPU support
-torch>=2.0.0  # if using GPU
+# Optional: GPU support (comment out if not using GPU)
+# torch>=2.0.0
