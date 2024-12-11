@@ -1,6 +1,17 @@
+# Core dependencies
 streamlit==1.28.0
 spacy==3.4.4
-thinc==8.1.10
 pandas==2.0.3
 numpy==1.24.3
-sqlalchemy==2.0.23
+
+# Visualization and UI
+thinc==8.1.10
+
+# Database
+sqlalchemy==1.4.46
+
+# Utils
+python-dateutil==2.8.2
+
+# spaCy model
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.0/en_core_web_sm-3.4.0.tar.gz#egg=en_core_web_sm==3.4.0
